@@ -9,3 +9,4 @@ pint.json export-ignore
 .github export-ignore
 boost.json export-ignore
 .mcp.json export-ignore
+testbench.yaml export-ignore
