@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1776162223">
-  <project timestamp="1776162223" name="Clover Coverage">
+<coverage generated="1776164986">
+  <project timestamp="1776164986" name="Clover Coverage">
     <package name="Revolution\Socialite\Discord">
-      <file name="/Users/logic/Sites/socialite-discord/src/DiscordProvider.php">
+      <file name="/home/runner/work/socialite-discord/socialite-discord/src/DiscordProvider.php">
         <class name="Revolution\Socialite\Discord\DiscordProvider" namespace="Revolution\Socialite\Discord">
           <metrics complexity="5" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="22" coveredelements="22"/>
         </class>
@@ -30,7 +30,7 @@
         <line num="75" type="stmt" count="5"/>
         <metrics loc="78" ncloc="56" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="22" coveredelements="22"/>
       </file>
-      <file name="/Users/logic/Sites/socialite-discord/src/DiscordServiceProvider.php">
+      <file name="/home/runner/work/socialite-discord/socialite-discord/src/DiscordServiceProvider.php">
         <class name="Revolution\Socialite\Discord\DiscordServiceProvider" namespace="Revolution\Socialite\Discord">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
         </class>
