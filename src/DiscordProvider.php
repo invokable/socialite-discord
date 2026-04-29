@@ -18,7 +18,7 @@ class DiscordProvider extends AbstractProvider implements ProviderInterface
         'email',
     ];
 
-    protected string $endpoint = 'https://discordapp.com/api/';
+    protected string $endpoint = 'https://discord.com/';
 
     /**
      * The separating character for the requested scopes.
@@ -42,7 +42,7 @@ class DiscordProvider extends AbstractProvider implements ProviderInterface
      */
     protected function getTokenUrl(): string
     {
-        return $this->endpoint.'oauth2/token';
+        return $this->endpoint.'api/oauth2/token';
     }
 
     /**
@@ -51,7 +51,7 @@ class DiscordProvider extends AbstractProvider implements ProviderInterface
     protected function getUserByToken($token)
     {
         $response = $this->getHttpClient()
-            ->get($this->endpoint.'users/@me', [
+            ->get($this->endpoint.'api/users/@me', [
                 'headers' => [
                     'Authorization' => 'Bearer '.$token,
                 ],
